@@ -37,8 +37,8 @@ export default function Hero() {
   };
 
   // Hitung offset buat efek gerak konten (skalanya bisa kamu sesuaikan)
-  const offsetX = -(cursor.x - 0.5) * 1000;
-  const offsetY = -(cursor.y - 0.5) * 1000;
+  const offsetX = -(cursor.x - 0.5) * 500;
+  const offsetY = -(cursor.y - 0.5) * 500;
 
   const overlayVariants = {
     initial: { y: 0 },
@@ -80,8 +80,8 @@ export default function Hero() {
         <motion.div
           className="absolute"
           style={{
-            width: "200vw",
-            height: "200vh",
+            width: "150vw",
+            height: "150vh",
             transform: `translate(${offsetX}px, ${offsetY}px)`,
             transition: "transform 0.05s ease-out",
           }}
@@ -89,7 +89,7 @@ export default function Hero() {
           <motion.img 
             src={Web1} 
             alt="Web1" 
-            className="absolute top-14 left-4/12 max-w-xs shadow-2xl transition-all duration-300 hover:max-w-sm"
+            className="absolute top-14 -left-32 max-w-xs shadow-2xl transition-all duration-300 hover:max-w-sm"
             initial={{ opacity:0, scale:0 }}
             animate={{ opacity:1, scale:1 }}
             transition={{ duration:1.4, ease:"easeInOut" }}
@@ -97,7 +97,7 @@ export default function Hero() {
           <motion.img 
             src={Web2} 
             alt="Web1" 
-            className="absolute top-14 left-4/12 max-w-xs shadow-2xl transition-all duration-300 hover:max-w-sm"
+            className="absolute bottom-96 left-96 max-w-xs shadow-2xl transition-all duration-300 hover:max-w-sm"
             initial={{ opacity:0, scale:0 }}
             animate={{ opacity:1, scale:1 }}
             transition={{ duration:1.4, ease:"easeInOut" }}
