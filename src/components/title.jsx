@@ -23,7 +23,7 @@ export default function Title() {
 
   return (
     <motion.div
-      className="fixed flex justify-center items-center w-full h-screen z-10 pointer-events-none"
+      className="absolute flex justify-center items-center w-full h-screen z-10 pointer-events-none"
       variants={container}
       initial="hidden"
       animate="visible"
