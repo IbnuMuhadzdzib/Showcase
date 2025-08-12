@@ -8,6 +8,11 @@ import Web3 from "../assets/images/WebPict3.png"
 import Web4 from "../assets/images/WebPict4.png"
 import Web5 from "../assets/images/WebPict5.png"
 import Web6 from "../assets/images/WebPict6.png"
+import Web7 from "../assets/images/artikel-desktop.webp"
+import Web8 from  "../assets/images/e-report-desktop.webp"
+import Web9 from  "../assets/images/idn-desktop.webp"
+import Web10 from  "../assets/images/rama-desktop.webp"
+import Web11 from  "../assets/images/technova-desktop.webp"
 
 export default function Hero() {
   const [showOverlay, setShowOverlay] = useState(true);
@@ -84,7 +89,7 @@ export default function Hero() {
           <motion.img 
             src={Web1} 
             alt="Web1" 
-            className="absolute top-14 left-4/12 w-xs shadow-2xl transition-all duration-300 hover:w-sm"
+            className="absolute top-14 left-4/12 max-w-xs shadow-2xl transition-all duration-300 hover:max-w-sm"
             initial={{ opacity:0, scale:0 }}
             animate={{ opacity:1, scale:1 }}
             transition={{ duration:1.4, ease:"easeInOut" }}
@@ -92,44 +97,84 @@ export default function Hero() {
           <motion.img 
             src={Web2} 
             alt="Web1" 
-            className="absolute top-5/12 left-3/7 w-xs shadow-2xl transition-all duration-300 hover:w-sm"
+            className="absolute top-14 left-4/12 max-w-xs shadow-2xl transition-all duration-300 hover:max-w-sm"
             initial={{ opacity:0, scale:0 }}
             animate={{ opacity:1, scale:1 }}
-            transition={{ duration:1.5, ease:"easeInOut" }}
+            transition={{ duration:1.4, ease:"easeInOut" }}
           />
           <motion.img 
             src={Web3} 
             alt="Web1" 
-            className="absolute -top-20 left-1/12 w-xs shadow-2xl transition-all duration-300 hover:w-sm"
+            className="absolute top-14 left-4/12 max-w-xs shadow-2xl transition-all duration-300 hover:max-w-sm"
             initial={{ opacity:0, scale:0 }}
             animate={{ opacity:1, scale:1 }}
-            transition={{ duration:1.7, ease:"easeInOut" }}
+            transition={{ duration:1.4, ease:"easeInOut" }}
           />
           <motion.img 
             src={Web4} 
             alt="Web1" 
-            className="absolute top-2/12 -left-20 w-xs shadow-2xl transition-all duration-300 hover:w-sm"
+            className="absolute top-14 left-4/12 max-w-xs shadow-2xl transition-all duration-300 hover:max-w-sm"
             initial={{ opacity:0, scale:0 }}
             animate={{ opacity:1, scale:1 }}
-            transition={{ duration:1.8, ease:"easeInOut" }}
+            transition={{ duration:1.4, ease:"easeInOut" }}
           />
           <motion.img 
             src={Web5} 
             alt="Web1" 
-            className="absolute bottom-5/12 -left-1/12 w-xs shadow-2xl transition-all duration-300 hover:w-sm"
+            className="absolute top-14 left-4/12 max-w-xs shadow-2xl transition-all duration-300 hover:max-w-sm"
             initial={{ opacity:0, scale:0 }}
             animate={{ opacity:1, scale:1 }}
-            transition={{ duration:2, ease:"easeInOut" }}
+            transition={{ duration:1.4, ease:"easeInOut" }}
           />
           <motion.img 
             src={Web6} 
             alt="Web1" 
-            className="absolute bottom-6/12 left-2/12 w-xs shadow-2xl transition-all duration-300 hover:w-sm"
+            className="absolute top-14 left-4/12 max-w-xs shadow-2xl transition-all duration-300 hover:max-w-sm"
             initial={{ opacity:0, scale:0 }}
             animate={{ opacity:1, scale:1 }}
-            transition={{ duration:2.2, ease:"easeInOut" }}
+            transition={{ duration:1.4, ease:"easeInOut" }}
           />
-
+          <motion.img 
+            src={Web7} 
+            alt="Web1" 
+            className="absolute top-14 left-4/12 max-w-xs shadow-2xl transition-all duration-300 hover:max-w-sm"
+            initial={{ opacity:0, scale:0 }}
+            animate={{ opacity:1, scale:1 }}
+            transition={{ duration:1.4, ease:"easeInOut" }}
+          />
+          <motion.img 
+            src={Web8} 
+            alt="Web1" 
+            className="absolute top-14 left-4/12 max-w-xs shadow-2xl transition-all duration-300 hover:max-w-sm"
+            initial={{ opacity:0, scale:0 }}
+            animate={{ opacity:1, scale:1 }}
+            transition={{ duration:1.4, ease:"easeInOut" }}
+          />
+          <motion.img 
+            src={Web9} 
+            alt="Web1" 
+            className="absolute top-14 left-4/12 max-w-xs shadow-2xl transition-all duration-300 hover:max-w-sm"
+            initial={{ opacity:0, scale:0 }}
+            animate={{ opacity:1, scale:1 }}
+            transition={{ duration:1.4, ease:"easeInOut" }}
+          />
+          <motion.img 
+            src={Web10} 
+            alt="Web1" 
+            className="absolute top-14 left-4/12 max-w-xs shadow-2xl transition-all duration-300 hover:max-w-sm"
+            initial={{ opacity:0, scale:0 }}
+            animate={{ opacity:1, scale:1 }}
+            transition={{ duration:1.4, ease:"easeInOut" }}
+          />
+          <motion.img 
+            src={Web11} 
+            alt="Web1" 
+            className="absolute top-14 left-4/12 max-w-xs shadow-2xl transition-all duration-300 hover:max-w-sm"
+            initial={{ opacity:0, scale:0 }}
+            animate={{ opacity:1, scale:1 }}
+            transition={{ duration:1.4, ease:"easeInOut" }}
+          />
+          
         </motion.div>
 
         <Title />

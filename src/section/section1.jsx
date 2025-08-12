@@ -21,12 +21,11 @@ export default function Section1() {
         <motion.section
             ref={ref}
             style={{ scale }}
-            className="relative h-screen bg-amber-300 z-20 rounded-xl"
+            className="relative h-screen bg-primary z-20 rounded-xl"
         >
             <motion.div
                 className="w-full flex justify-center items-center"
             >
-                <h1>Testing</h1>
             </motion.div>
         </motion.section>
         </>    
